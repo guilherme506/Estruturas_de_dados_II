@@ -25,14 +25,15 @@ Cada célula possui oito vizinhos possíveis:
 ├───┼───┼───┤
 │   │   │   │
 └───┴───┴───┘
-```
 X = célula atual
-
+```
 No jogo original a implementação tradicional pode representar o universo como uma matriz, para calcular uma nova geração, o programa precisa percorrer toda a matriz.
 Entretanto isso gera um problema quando o universo é muito grande e possui poucas células vivas. Por exemplo:
-    Se apenas 500 células estiverem vivas, uma implementação baseada em matriz ainda precisaria considerar uma quantidade enorme de posições vazias.
 
-Na versão reproduzida, as células vivas são armazenadas em um  set[tuple[int, int]]
+Se apenas 500 células estiverem vivas, uma implementação baseada em matriz ainda precisaria considerar uma quantidade enorme de posições vazias.
+
+Na versão reproduzida, as células vivas são armazenadas em um  set[tuple[int, int]].
+
 Fazendo com que somente as células vivas são armazenadas, permitindo trabalhar com um universo conceitualmente muito maior sem precisar criar uma matriz inteira.
 
 
