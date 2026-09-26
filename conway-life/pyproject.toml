@@ -1,0 +1,19 @@
+[project]
+name = "conway-life"
+version = "0.1.0"
+description = "Implementação otimizada do Conway's Game of Life"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/conway"]
