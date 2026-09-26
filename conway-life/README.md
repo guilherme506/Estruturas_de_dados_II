@@ -25,7 +25,7 @@ Cada célula possui oito vizinhos possíveis:
 ├───┼───┼───┤
 │   │   │   │
 └───┴───┴───┘
-
+```
 X = célula atual
 
 No jogo original a implementação tradicional pode representar o universo como uma matriz, para calcular uma nova geração, o programa precisa percorrer toda a matriz.
