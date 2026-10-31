@@ -248,8 +248,9 @@ Vértices disponíveis: Belo Horizonte, Brasília, Campo Grande, Cuiabá, Curiti
 
 ```
 .
-├── solucao_grafos.py   # Código completo e executável
-└── README.md           # Este documento
+├── Grafo.png
+├── Material_Estudante_Grafos_BFS_DFS.md           # Este documento
+└── solucao_grafos_BFS_DFS.py   # Código completo e executável
 ```
 
 ---
