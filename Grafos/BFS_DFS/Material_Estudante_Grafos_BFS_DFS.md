@@ -4,7 +4,7 @@
 **Estudo de caso:** Pane relacionada ao GPS e impactos em voos no Aeroporto de Brasília (simulação didática)
 
 > **Aviso:** Esta atividade é uma simulação computacional. Não representa um modelo de navegação aeronáutica operacional. A notícia motiva o problema; os bloqueios e as rotas são fictícios.
-
+Aluno[Guilherme Borges Galvão]
 ---
 
 ## 1. Problema e Objetivo
